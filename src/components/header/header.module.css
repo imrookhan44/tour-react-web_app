@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.menu__bg{
+  background-color: black;
+  padding: 20px;
+}
+.menu__buttons ul{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.menu__buttons ul li {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+}
+.menu__buttons ul li:hover{
+  background-color: azure;
+  color: black;
+
+}

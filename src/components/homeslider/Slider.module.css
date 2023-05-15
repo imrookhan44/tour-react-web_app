@@ -1,0 +1,26 @@
+.slider {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.sliderItem {
+  width: 100%;
+  height: 100%;
+}
+
+.sliderItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 770px) {
+  .sliderItem{
+    height: 80%;
+  }
+  .slider{
+    height: 50vh;
+  }
+
+}

@@ -1,0 +1,46 @@
+.first__heading{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.paragraph{
+  width: 50%;
+  padding-top: 30px;
+  margin: auto;
+}
+.paragraph p{
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cards{
+  padding-top:  40px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.cards .images img{
+  width: 242px;
+
+}
+
+@media screen and (max-width: 770px) {
+  .cards{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 430px) {
+  .paragraph{
+    width: 93%;
+  }
+  .cards{
+    margin-left: 10px;
+  }
+  .cards .images img{
+    width: 95%;
+  }
+
+}

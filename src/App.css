@@ -1,0 +1,6 @@
+@media screen and(max-width: 1024) {
+  .contactForm{
+    border: solid red;
+  }
+
+}
